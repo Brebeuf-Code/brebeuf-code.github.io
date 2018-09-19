@@ -6,12 +6,18 @@ body {
   color: white;
 }
 
-.space{
-  height: 450px; 
+.black_text {
+  color: black;
 }
 
 body{
     background-image: url("bg.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
+    text-shadow: 0px 0px 40px #FFFFFF;
+
+}
+
+h1 {
+    text-shadow: 1px 1px 25px #FFFFFF;
 }
