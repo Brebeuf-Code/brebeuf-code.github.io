@@ -26,5 +26,9 @@ h1 {
 h6 {
     text-shadow: 1px 1px 25px #000000;
 }
+.head {
+    /*background-size: 10px 10px;*/
+    background-blend-mode: color;
+}
 
 
