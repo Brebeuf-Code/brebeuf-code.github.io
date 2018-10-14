@@ -1,16 +1,16 @@
 .text_content {
-  margin: 20px;
+    margin: 20px;
 }
 
 body {
-  color: white;
+    color: white;
 }
 
 .black_text {
-  color: black;
+    color: black;
 }
 
-body{
+body {
     background-image: url("bg.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
