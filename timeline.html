@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Brébeuf Code</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+            integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+            crossorigin="anonymous"></script>
+    <!-- Link to custom CSS -->
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <!--jQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+
+
+<div class="text-content">
+
+    <!--website header-->
+    <div class="jumbotron" style="height:250px; background-color:transparent !important; text-align: center;">
+        <h1 style="font-size: 65px;">Brébeuf Code</h1>
+        <h6 style="font-size: 25px;">Ressources</h6>
+        <button class="btn btn-secondary" onclick="returnToIndex()">Retour à la page d'accueil</button>
+        <hr/>
+    </div>
+    <!--onAction for button-->
+    <script>
+        function returnToIndex() {
+            location.href = 'index.html';
+        }
+    </script>
+
+    <div class="container-fluid">
+        <div class="container-fluid">
+            <div class="row">
+                
+                <div class="column" style="padding: 20px;">
+                    <div class="card" style="width: 200px;">
+
+                        <div class="card-body">
+                            <h5 class="card-title black_text">Défis pour le mercredi 31 octobre</h5>
+
+                            <p class="card-text black_text"><ul>
+                            <li></p>
+                            <a href="https://docs.google.com/presentation/d/1gctfbwcsbbDc5LqQU-uXNxPUsCpG4Yh9OBriNb3RX8w/edit?usp=sharing"
+                               class="btn btn-outline-primary">Visionner</a>
+
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    $('body').removeClass('fade-out');
+</script>
+</body>
+</html>
