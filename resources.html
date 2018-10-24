@@ -15,7 +15,8 @@
 
 </head>
 <body class="body_content" background="bg2.jpg">
-
+<!--fade in-->
+<script>document.body.className += ' fade-out';</script>
 <nav class="navbar navbar-expand-sm bg-light">
 
     <!-- Links -->
@@ -24,7 +25,7 @@
             <a class="nav-link" href="index.html">Brébeuf Code</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="ressources.html">Ressources</a>
+            <a class="nav-link" href="resources.html">Ressources</a>
         </li>
         <!-- <li class="nav-item">
           <a class="nav-link" href="#">Link 3</a>
@@ -242,11 +243,14 @@
                         </div>
                     </div>
                 </div>
-                
             </div>
-
         </div>
     </div>
 </div>
+<script>
+    $(function() {
+        $('body').removeClass('fade-out');
+    });
+</script>
 </body>
 </html>
