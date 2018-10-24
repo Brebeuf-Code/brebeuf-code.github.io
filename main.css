@@ -1,4 +1,4 @@
-.text_content {
+.text-content {
     margin: 20px;
 }
 
@@ -33,7 +33,7 @@ h6 {
 
 body {
     opacity: 1;
-    transition: 1s opacity;
+    transition: 0.2s opacity;
 }
 body.fade-out {
     opacity: 0;

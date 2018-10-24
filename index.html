@@ -5,8 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no">
 
     <title>Brébeuf Code</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css"
-          integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+            integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+            crossorigin="anonymous"></script>
+    >
     <!-- Link to custom CSS -->
     <link rel="stylesheet" type="text/css" href="main.css">
 
@@ -16,47 +21,51 @@
 </head>
 
 <body class="body_content" background="bg2.jpg">
-<nav class="navbar navbar-expand-sm bg-light">
-    <!-- Links -->
-    <ul class="navbar-nav">
-        <li class="nav-item">
-            <a class="nav-link" href="index.html">Brébeuf Code</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="resources.html">Ressources</a>
-        </li>
-    </ul>
-</nav>
-<div class="text_content">
+<!--fade-in-->
+<script>document.body.classname += ' fade-out';</script>
+<!--<nav class="navbar navbar-expand-sm bg-light">-->
+<!--&lt;!&ndash; Links &ndash;&gt;-->
+<!--<ul class="navbar-nav">-->
+<!--<li class="nav-item">-->
+<!--<a class="nav-link" href="index.html">Brébeuf Code</a>-->
+<!--</li>-->
+<!--<li class="nav-item">-->
+<!--<a class="nav-link" href="resources.html">Ressources</a>-->
+<!--</li>-->
+<!--</ul>-->
+<!--</nav>-->
+<div class="text-content">
+    <div class="jumbotron" style="height:450px; background-color: transparent !important;">
+        <header>
+            <center><h1 style="font-size: 75px">Brébeuf Code</h1></center>
+            <center><h6>Tous les mercredis, A3-45</h6></center>
+        </header>
+    </div>
     <div class="container-fluid">
-        <div class="space" style="height:450px;">
-            <header>
-                <center><h1>Brébeuf Code</h1></center>
-                <center><h6>Tous les mercredis, A3-45</h6></center>
-            </header>
-        </div>
 
-        <div class="space">
+        <div>
             <div>
                 <center><h6>Bienvenue, cher camarade! Venez avec les gens de la communauté!</h6></center>
             </div>
             <br>
             <div>
                 <center>
-                    <button onclick="location.href='resources.html'" class="btn btn-outline-light btn-lg">Accès au
+                    <button onclick="onEnterButtonPress()" class="btn btn-outline-light btn-lg">Accès au
                         cours
                     </button>
                 </center>
             </div>
         </div>
 
-        <script>
-
-        </script>
-
     </div>
 </div>
-</body>
+<script>
+    $('body').removeClass('fade-out');
 
-<noscript>Please enable JavaScript for this webpage to work correctly.</noscript>
+    function onEnterButtonPress() {
+        $('body').addClass('fade-out');
+        location.href = 'resources.html';
+    }
+</script>
+</body>
 </html>
